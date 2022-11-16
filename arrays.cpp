@@ -76,8 +76,7 @@ void pop(){
         cout << "Stack is empty" << endl;
     } else {
         top--;
-    }
-    
+    }  
 }
 
 void showTop(){

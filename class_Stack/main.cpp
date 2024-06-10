@@ -31,16 +31,16 @@ while(1){
             cin >> value;
             stack.setValue(value);
         }
-        if(menu == 0){
+        if(0 == menu){
             stack.displayStack();
         }
-        if(menu == 1){
+        if(1 == menu){
             stack.showTop();
         }
-        if(menu == 2){
+        if(2 == menu){
             stack.push();
         }
-        if(menu == 3){
+        if(3 == menu){
             stack.pop();
         }
         cout << "\n\n\n\n\n";
